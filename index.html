@@ -10,11 +10,16 @@
 </head>
 <body>
     
-    <div class="wrapper">
+<!-- <div class="unique-class">
+    <div class="container unique-class-wrapper">
+        
+    </div>
+</div> -->
+
+    
 
         <header>
-
-            <div class="content">
+            
                 <div class="header-for-mobile">
                     <div class="container">
                         <div class="header-for-mobile-row">
@@ -35,8 +40,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="content">
                 
                 <div class="nav-primary">
                     <div class="container">
@@ -56,7 +59,6 @@
 
                             <div class="field-search">
                                     <input type="text" placeholder="Search...">
-                                    <button type="submit"></button>
                             </div>
 
                             <a href="#" class="account"><img src="images/ICON-Account.svg" alt=""></a>
@@ -66,9 +68,7 @@
                     </div>
                 </div>
 
-                <div class="content">
-
-                    <div class="nav-secondary">
+                <div class="nav-secondary">
                         <div class="container">
                             <div class="nav-secondary-row">
 
@@ -87,16 +87,14 @@
                                     </nav>
                             </div>
                         </div>
-                    </div>
                 </div>
-            </div>
+
         </header>
 
         <!-- ---------- hero --------------------- -->
 
-        <div class="content">
             <div class="hero">
-                <div class="container hero-column">
+                <div class="container-fluid hero-column">
 
                         <div class="hero-logo">
                             <img src="./images/hero-logo.svg" alt="">
@@ -104,20 +102,15 @@
 
                         <p class="hero-p">Love where you are.</p>
 
-                        <div class="fill-button"></div>
-                        <div class="bassic-button">
                            <a href="#">SHOP NOW</a>
-                        </div>
-                        
+                
                 </div>
             </div>
-        </div>
 
         <!-- -------------------- text-with-subtitle ------------------ -->
 
-        <div class="content">
             <div class="text-with-subtitle">
-                <div class="container text-with-subtitle-column">
+                <div class="container-fluid text-with-subtitle-column">
 
                         <div class="text-with-subtitle-logo">
                             <img src="./images/icon-hand-coral-1.svg" alt="">
@@ -129,67 +122,86 @@
                         
                 </div>
             </div>
-        </div>
 
         <!-- --------------------- featured-products --------------------- -->
 
-        <div class="content">
             <div class="featured-products">
                 <h2>Best Sellers</h2>
 
-                <div class="container-2 featured-products-row">
+                <div class="container featured-products-row">
+                    
+                    <div class="product-tile">
+                    <div class="start-block">
+                        <div class="item-img"><img src="./images/product-tile-1.png" alt=""></div>
+                        <div class="item-p">
+                            <p class="name-product">Hockney Pillow</p>
+                            <p class="product-price">$68.00</p>
+                        </div>
+                        <div class="more-info">
+                            <p class="more-info"></p>
+                        </div>
+                    </div>
+                        <div class="item-button">
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
 
                     <div class="product-tile">
-                        <img src="./images/product-tile-1.png" alt="">
-                        <p class="name-product">Hockney Pillow</p>
-                        <p class="product-price">$68.00</p>
-                        <div class="fill-button-add"></div>
-                        <div class="bassic-button-add">
-                           <a href="#">ADD TO CART</a>
+                    <div class="start-block">
+                        <div class="item-img"><img src="./images/product-tile-2.png" alt=""></div>
+                        <div class="item-p">
+                            <p class="name-product">Warby Pillow</p>
+                            <p class="product-price">$68.00</p>
+                        </div>
+                        <div class="more-info">
+                            <p class="more-info"></p>
                         </div>
                     </div>
-                    
-                    <div class="product-tile">
-                        <img src="./images/product-tile-2.png" alt="">
-                        <p class="name-product-2">Warby Pillow</p>
-                        <p class="product-price">$68.00</p>
-                        <div class="fill-button-add"></div>
-                        <div class="bassic-button-add">
-                           <a href="#">ADD TO CART</a>
+                        <div class="item-button">
+                            <a href="#">ADD TO CART</a>
                         </div>
                     </div>
-                    
-                    <div class="product-tile">
-                        <img src="./images/product-tile-3.png" alt="">
-                        <p class="name-product-3">Blake Bundle</p>
-                        <p class="product-price product-price-3">$118.00</p>
-                        <p class="more-info">Save 12%</p>
-                        <div class="fill-button-add-3"></div>
-                        <div class="bassic-button-add-3">
-                           <a href="#">ADD TO CART</a>
+
+                    <div class="product-tile product-tile-3">
+                    <div class="start-block">
+                        <div class="item-img"><img src="./images/product-tile-3.png" alt=""></div>
+                        <div class="item-p">
+                            <p class="name-product">Blake Bundle</p>
+                            <p class="product-price">$118.00</p>
+                        </div>
+                        <div class="more-info">
+                            <p class="more-info">Save 12%</p>
                         </div>
                     </div>
-                    
-                    <div class="product-tile">
-                        <img src="./images/product-tile-4.png" alt="">
-                        <p class="name-product-4">Eden Cocktail Napkins</p>
-                        <p class="product-price product-price-4">$22.00</p>
-                        <p class="more-info">Set of 4</p>
-                        <div class="fill-button-add-4"></div>
-                        <div class="bassic-button-add-4">
-                           <a href="#">ADD TO CART</a>
+                        <div class="item-button">
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+
+                    <div class="product-tile product-tile-4">
+                    <div class="start-block">
+                        <div class="item-img"><img src="./images/product-tile-4.png" alt=""></div>
+                        <div class="item-p">
+                            <p class="name-product">Eden Cocktail Napkins</p>
+                            <p class="product-price">$22.00</p>
+                        </div>
+                        <div class="more-info">
+                            <p class="more-info">Set of 4</p>
+                        </div>
+                    </div>
+                        <div class="item-button">
+                            <a href="#">ADD TO CART</a>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </div>
 
         <!-- ------------------- splits ------------------------------- -->
 
-        <div class="content">
-            <div class="container-2 splits-row">
+            <div class="container-fluid splits-row">
                 
+                <div class="splits-group">
                 <div id="split-1" class="split-block">
                     <img src="./images/split-photo-1.png" alt="">
                 </div>
@@ -197,101 +209,93 @@
                 <div id="split-2" class="split-block split-block-2">
                     <h3>Pattern Play</h3>
                     <p>Welcome to your new go-to for great design. Our original, only-ours patterns are made for mixing, matching and making an impact—so you can curate a look that’s totally yours.</p>
-                    <div class="fill-button-slit-2"></div>
-                    <div class="bassic-button-split-2">
-                        <a href="#">SHOP PILLOWS</a>
-                    </div>
+                    <a href="#">SHOP PILLOWS</a>
+                </div>
                 </div>
 
+                <div class="splits-group">
                 <div id="split-3" class="split-block split-block-3">
                     <h3>Mealtime Magic</h3>
                     <p>Take your table from so-so to soo fabulous with our dining linens—the easiest (and most giftable) way to bring your favorite patterns home.</p>
-                    <div class="fill-button-slit-3"></div>
-                    <div class="bassic-button-split-3">
-                        <a href="#">SHOP DINING LINENS</a>
-                    </div>
+                    <a href="#">SHOP DINING LINENS</a>
                 </div>
 
                 <div id="split-4" class="split-block">
                     <img src="./images/split-photo-2.png" alt="">
                 </div>
+                </div>
 
+                <div class="splits-group">
                 <div id="slit-5" class="split-block">
                     <img src="./images/split-photo-3.png" alt="">
                 </div>
 
                 <div id="slit-6" class="split-block split-block-2">
-                    <h3 id="last-split">Curtain Call</h3>
-                    <p id="last-split-p">Our curtains add flavor in a flash (seriously, we’ll ship them to you in no time). Choose your print and customize the length for the perfect fit.</p>
-                    <div class="fill-button-slit-2"></div>
-                    <div class="bassic-button-split-2">
-                        <a href="#">SHOP CUTAINS</a>
-                    </div>
+                    <h3>Curtain Call</h3>
+                    <p>Our curtains add flavor in a flash (seriously, we’ll ship them to you in no time). Choose your print and customize the length for the perfect fit.</p>
+                    <a href="#">SHOP CUTAINS</a>
                 </div>
+                </div>
+
             </div>
-        </div>
 
         <!-- --------------------------- press-carousel ------------------------- -->
 
-        <div class="content">
             <div class="press-carousel">
                 <div class="container press-carousel-column">
 
-                    <div class="fill-bg-press"></div>
                     <div class="main-press-carousel">
+
                         <h3>As Seen In</h3>
-                        <div class="press-img-1"><img src="./images/press-carousel-photo-1.png" alt=""></div>
-                        <div class="press-img-2"><img src="./images/press-carousel-photo-2.svg" alt=""></div>
-                        <div class="press-img-3"><img src="./images/press-carousel-photo-3.svg" alt=""></div>
-                        <div class="press-img-4"><img src="./images/press-carousel-photo-4.svg" alt=""></div>
-                        <div class="press-img-5"><img src="./images/press-carousel-photo-5.svg" alt=""></div>
-                        <div class="press-img-6"><img src="./images/press-carousel-photo-6.svg" alt=""></div>
-                        <div class="press-img-7"><img src="./images/press-carousel-photo-7.svg" alt=""></div>
-                        <div class="press-img-8"><img src="./images/press-carousel-photo-8.svg" alt=""></div>
-                        <div class="press-img-9"><img src="./images/press-carousel-photo-9.svg" alt=""></div>
-                        <div class="press-img-10"><img src="./images/press-carousel-photo-10.svg" alt=""></div>
+                        <div class="img-press-group">
+                        <div class="press-img"><img src="./images/press-carousel-photo-1.png" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-2.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-3.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-4.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-5.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-6.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-7.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-8.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-9.svg" alt=""></div>
+                        <div class="press-img"><img src="./images/press-carousel-photo-10.svg" alt=""></div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
 
         <!-- ----------------------------- social-feed ------------------------------- -->
         
-        <div class="content">
             <div class="social-feed">
-                <div class="container-2 social-feed-column">
+                <div class="container-fluid social-feed-column">
                     
                     <h3>Add Some Flavor to Your Feed</h3>
-                    
+
                     <div class="social-feed-images">
-                        <div class="social-feed-img-1"><img src="./images/social-feed-photo-1.png" alt=""></div>
-                        <div class="social-feed-img-2"><img src="./images/social-feed-photo-2.png" alt=""></div>
-                        <div class="social-feed-img-3"><img src="./images/social-feed-photo-3.png" alt=""></div>
-                        <div class="social-feed-img-4"><img src="./images/social-feed-photo-4.png" alt=""></div>
-                        <div class="social-feed-img-5"><img src="./images/social-feed-photo-5.png" alt=""></div>
-                        <div class="social-feed-img-6"><img src="./images/social-feed-photo-6.png" alt=""></div>
+                        <div id="first-social-feed-img" class="social-feed-img"><img src="./images/social-feed-photo-1.png" alt=""></div>
+                        <div id="social-feed-img-2" class="social-feed-img"><img src="./images/social-feed-photo-2.png" alt=""></div>
+                        <div id="social-feed-img-3" class="social-feed-img"><img src="./images/social-feed-photo-3.png" alt=""></div>
+                        <div id="social-feed-img-4" class="social-feed-img"><img src="./images/social-feed-photo-4.png" alt=""></div>
+                        <div id="social-feed-img-5" class="social-feed-img"><img src="./images/social-feed-photo-5.png" alt=""></div>
+                        <div id="last-social-feed-img" class="social-feed-img"><img src="./images/social-feed-photo-6.png" alt="" width="50%"></div>
                     </div>
 
                     <a href="#">@PepperHome</a>
                 </div>
             </div>
-        </div>
 
         <!-- ----------------------------------- footer ------------------------------ -->
 
         <div class="footer">
             
-            <div class="content">
                 <div class="footer-primary">
                     <div class="container footer-primary-row">
                         <p>Have questions?<a href="#">We’ve got answers.</a></p>
                     </div>
                 </div>
-            </div>
 
-            <div class="content">
                 <div class="footer-secondary">
-                    <div class="container-2 footer-secondary-row">
+                    <div class="container-fluid footer-secondary-row">
                         
                         <div class="footer-secondary-block-1">
                             <h3>Let’s Keep in Touch</h3>
@@ -299,7 +303,6 @@
                                 <input type="text" placeholder="Enter your email">
                                 <button>SUBMIT</button>
                             </form>
-                            <div class="white-line"></div>
                         </div>
 
                         <div class="footer-secondary-block-2">
@@ -321,11 +324,10 @@
                     </div>
 
                 </div>
-            </div>
         </div>
 
 
-    </div>
+    
 
 </body>
 </html>
